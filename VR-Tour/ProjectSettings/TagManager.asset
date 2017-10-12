@@ -4,9 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - grass
-  - obstacle
-  - danger
+  - ExcludeTeleport
+  - Teleport
   layers:
   - Default
   - TransparentFX
