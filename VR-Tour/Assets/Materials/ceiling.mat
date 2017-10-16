@@ -8,11 +8,12 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: ceiling
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _NORMALMAP _PARALLAXMAP
+  m_ShaderKeywords: _ALPHATEST_ON _NORMALMAP _PARALLAXMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    RenderType: TransparentCutout
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -62,8 +63,9 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 1
     - _Metallic: 0
-    - _Mode: 0
+    - _Mode: 1
     - _OcclusionStrength: 1
+    - _Outline: 0.0001
     - _Parallax: 0.0352
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -73,3 +75,4 @@ Material:
     m_Colors:
     - _Color: {r: 0.9044118, g: 0.9044118, b: 0.9044118, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
