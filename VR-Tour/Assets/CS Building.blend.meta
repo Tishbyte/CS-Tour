@@ -13,6 +13,8 @@ ModelImporter:
     100010: Door
     100012: DoorHinge
     100014: Light
+    100016: Door_001
+    100018: Door_002
     400000: //RootNode
     400002: Plane
     400004: Plane_001
@@ -21,6 +23,8 @@ ModelImporter:
     400010: Door
     400012: DoorHinge
     400014: Light
+    400016: Door_001
+    400018: Door_002
     2300000: Plane
     2300002: Plane_001
     2300004: Building
@@ -28,6 +32,8 @@ ModelImporter:
     2300008: Door
     2300010: DoorHinge
     2300012: Light
+    2300014: Door_001
+    2300016: Door_002
     3300000: Plane
     3300002: Plane_001
     3300004: Building
@@ -35,6 +41,8 @@ ModelImporter:
     3300008: Door
     3300010: DoorHinge
     3300012: Light
+    3300014: Door_001
+    3300016: Door_002
     4300000: Plane_001
     4300002: Plane
     4300004: Floor
@@ -42,6 +50,8 @@ ModelImporter:
     4300008: Door
     4300010: DoorHinge
     4300012: Light
+    4300014: Door_002
+    4300016: Door_001
     7400000: Default Take
     9500000: //RootNode
   materials:
