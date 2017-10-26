@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Outside_walls
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 65e2efdd42236b24caf13dd9125c102a, type: 3}
   m_ShaderKeywords: _PARALLAXMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -57,6 +57,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 3f91cae754639cb4d988d70659405ab2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ToonLut:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ToonShade:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -77,8 +81,10 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 0.25
     - _Outline: 0.03
+    - _OutlineDist: 5
     - _OutlineThickness: 0
     - _Parallax: 0.08
+    - _RimPower: 1
     - _Shininess: 0.01
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -92,5 +98,6 @@ Material:
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
     - _UnlitColor: {r: 0, g: 0, b: 0, a: 1}

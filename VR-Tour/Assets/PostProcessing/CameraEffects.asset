@@ -83,19 +83,19 @@ MonoBehaviour:
       sampleCount: 10
       frameBlending: 0
   eyeAdaptation:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
-      lowPercent: 45
-      highPercent: 95
+      lowPercent: 6.4967947
+      highPercent: 16.841335
       minLuminance: -5
       maxLuminance: 1
-      keyValue: 0.25
+      keyValue: 0.1
       dynamicKeyValue: 1
       adaptationType: 0
       speedUp: 2
       speedDown: 1
-      logMin: -8
-      logMax: 4
+      logMin: -16
+      logMax: 16
   bloom:
     m_Enabled: 1
     m_Settings:
@@ -104,7 +104,7 @@ MonoBehaviour:
         threshold: 1.1
         softKnee: 0.5
         radius: 4
-        antiFlicker: 0
+        antiFlicker: 1
       lensDirt:
         texture: {fileID: 0}
         intensity: 3
@@ -113,8 +113,8 @@ MonoBehaviour:
     m_Settings:
       tonemapping:
         tonemapper: 2
-        neutralBlackIn: 0.02
-        neutralWhiteIn: 10
+        neutralBlackIn: 0.004
+        neutralWhiteIn: 9.61
         neutralBlackOut: 0
         neutralWhiteOut: 10
         neutralWhiteLevel: 5.3
@@ -127,20 +127,20 @@ MonoBehaviour:
         saturation: 1
         contrast: 1
       channelMixer:
-        red: {x: 1, y: 0, z: 0}
+        red: {x: 1, y: 1.45, z: 0}
         green: {x: 0, y: 1, z: 0}
         blue: {x: 0, y: 0, z: 1}
-        currentEditingChannel: 0
+        currentEditingChannel: 1
       colorWheels:
         mode: 1
         log:
-          slope: {r: 1, g: 1, b: 1, a: 0}
-          power: {r: 1, g: 1, b: 1, a: 0}
-          offset: {r: 1, g: 1, b: 1, a: 0}
+          slope: {r: 1, g: 0, b: 0.23993587, a: 0}
+          power: {r: 0.43058848, g: 1, b: 0, a: 0}
+          offset: {r: 1, g: 0, b: 0.14075184, a: 0}
         linear:
-          lift: {r: 0, g: 0, b: 0, a: 0}
-          gamma: {r: 0, g: 0, b: 0, a: 0}
-          gain: {r: 0, g: 0, b: 0, a: 0}
+          lift: {r: 1, g: 1, b: 1, a: 0}
+          gamma: {r: 1, g: 1, b: 1, a: 0}
+          gain: {r: 1, g: 1, b: 1, a: 0}
       curves:
         master:
           curve:
@@ -276,22 +276,22 @@ MonoBehaviour:
         e_CurveG: 0
         e_CurveB: 0
   userLut:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       lut: {fileID: 0}
       contribution: 1
   chromaticAberration:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       spectralTexture: {fileID: 0}
-      intensity: 0.1
+      intensity: 0
   grain:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
-      colored: 1
-      intensity: 0.5
-      size: 1
-      luminanceContribution: 0.8
+      colored: 0
+      intensity: 1
+      size: 0.3
+      luminanceContribution: 0
   vignette:
     m_Enabled: 0
     m_Settings:
@@ -305,7 +305,7 @@ MonoBehaviour:
       opacity: 1
       rounded: 0
   dithering:
-    m_Enabled: 1
+    m_Enabled: 0
   monitors:
     currentMonitorID: 0
     refreshOnPlay: 0
