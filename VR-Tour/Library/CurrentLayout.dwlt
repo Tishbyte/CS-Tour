@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 681, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 9
+  controlID: 21
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 22
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 23
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -203,12 +203,12 @@ MonoBehaviour:
     height: 454
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -364,21 +364,21 @@ MonoBehaviour:
     width: 325
     height: 433
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 10340000
-    m_LastClickedID: 13328
-    m_ExpandedIDs: 62f9ffff000000003c33000010340000123400004e34000086340000
+    scrollPos: {x: 0, y: 112}
+    m_SelectedIDs: 62350000
+    m_LastClickedID: 13666
+    m_ExpandedIDs: 62f9ffff000000002a3300008a340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Door (6)
-      m_OriginalName: Door (6)
+      m_Name: Door (9)
+      m_OriginalName: Door (9)
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 13096
+      m_UserData: 13222
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -417,14 +417,14 @@ MonoBehaviour:
     width: 757
     height: 433
   m_SceneLighting: 1
-  lastFramingTime: 1795.5002894983675
+  lastFramingTime: 1400.1931687553333
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 20.446604, y: 27.16429, z: -25.813457}
+    m_Target: {x: 29.198637, y: 26.827068, z: -20.997389}
     speed: 2
-    m_Value: {x: 20.446604, y: 27.16429, z: -25.813457}
+    m_Value: {x: 29.198637, y: 26.827068, z: -20.997389}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -447,13 +447,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.014402671, y: -0.8524805, z: -0.023521475, w: -0.52203095}
+    m_Target: {x: 0, y: 1, z: 0, w: 0}
     speed: 2
-    m_Value: {x: 0.014402672, y: -0.85248053, z: -0.023521477, w: -0.522031}
+    m_Value: {x: 0, y: 1, z: 0, w: 0}
   m_Size:
-    m_Target: 21.471315
+    m_Target: 3.022125
     speed: 2
-    m_Value: 21.471315
+    m_Value: 3.022125
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -501,19 +501,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/VRTK/Scripts/Interactions/GrabAttachMechanics
   m_ViewMode: 1
   m_StartGridSize: 72
   m_LastFolders:
-  - Assets
+  - Assets/VRTK/Scripts/Interactions/GrabAttachMechanics
   m_LastFoldersGridSize: 72
   m_LastProjectPath: C:\Users\BBCC\Desktop\Git\CS-Local\VR-Tour
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 97}
-    m_SelectedIDs: e8280000
-    m_LastClickedID: 10472
-    m_ExpandedIDs: 00000000e8280000482a0000842a0000442b00007c2b00006c2c00000c2f000026360000283600002a3600002c3600002e36000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 497}
+    m_SelectedIDs: b4290000
+    m_LastClickedID: 10676
+    m_ExpandedIDs: 00000000ea2800004a2a0000862a0000462b00007e2b00006e2c0000622d00000e2f00001a30000026360000283600002a3600002c3600002e36000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -541,7 +541,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e8280000482a0000842a0000442b00007c2b00006c2c00000c2f000026360000283600002a3600002c3600002e360000
+    m_ExpandedIDs: 00000000ea2800004a2a0000862a0000462b00007e2b00006e2c00000e2f000026360000283600002a3600002c3600002e360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -593,9 +593,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 4}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 72
-  m_DirectoriesAreaWidth: 115
+  m_DirectoriesAreaWidth: 140
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
