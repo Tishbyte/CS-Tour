@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ExcludeTeleport
   - Teleport
+  - Trash
   layers:
   - Default
   - TransparentFX
