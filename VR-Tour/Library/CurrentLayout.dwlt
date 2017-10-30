@@ -203,12 +203,12 @@ MonoBehaviour:
     height: 454
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -253,8 +253,8 @@ MonoBehaviour:
     y: 0
     width: 448
     height: 731
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -307,7 +307,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -364,24 +364,24 @@ MonoBehaviour:
     width: 325
     height: 433
   m_TreeViewState:
-    scrollPos: {x: 0, y: 112}
-    m_SelectedIDs: 62350000
-    m_LastClickedID: 13666
-    m_ExpandedIDs: 62f9ffff000000002a3300008a340000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: fc2e0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: d8fbffff000000002e33000002340000043400004034000074340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Door (9)
-      m_OriginalName: Door (9)
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 13222
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -422,9 +422,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 29.198637, y: 26.827068, z: -20.997389}
+    m_Target: {x: 4.5804935, y: 25.935205, z: -18.08409}
     speed: 2
-    m_Value: {x: 29.198637, y: 26.827068, z: -20.997389}
+    m_Value: {x: 4.5804935, y: 25.935205, z: -18.08409}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -447,9 +447,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 1, z: 0, w: 0}
+    m_Target: {x: -0.010758184, y: -0.8585933, z: 0.0180326, w: -0.5122272}
     speed: 2
-    m_Value: {x: 0, y: 1, z: 0, w: 0}
+    m_Value: {x: -0.010758184, y: -0.8585933, z: 0.0180326, w: -0.5122272}
   m_Size:
     m_Target: 3.022125
     speed: 2
@@ -501,19 +501,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/VRTK/Scripts/Interactions/GrabAttachMechanics
+    - Assets/PostProcessing
   m_ViewMode: 1
   m_StartGridSize: 72
   m_LastFolders:
-  - Assets/VRTK/Scripts/Interactions/GrabAttachMechanics
+  - Assets/PostProcessing
   m_LastFoldersGridSize: 72
   m_LastProjectPath: C:\Users\BBCC\Desktop\Git\CS-Local\VR-Tour
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 497}
-    m_SelectedIDs: b4290000
-    m_LastClickedID: 10676
-    m_ExpandedIDs: 00000000ea2800004a2a0000862a0000462b00007e2b00006e2c0000622d00000e2f00001a30000026360000283600002a3600002c3600002e36000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 1a2a0000
+    m_LastClickedID: 10778
+    m_ExpandedIDs: 00000000b22800001a2a0000582a00001e2b0000562b00004a2c0000442d0000f82e000004300000183600001a3600001c3600001e3600002036000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -541,7 +541,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ea2800004a2a0000862a0000462b00007e2b00006e2c00000e2f000026360000283600002a3600002c3600002e360000
+    m_ExpandedIDs: 00000000b22800001a2a0000582a00001e2b0000562b00004a2c0000442d0000f82e000004300000183600001a3600001c3600001e36000020360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
