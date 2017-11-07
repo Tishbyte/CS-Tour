@@ -31,6 +31,7 @@ GameObject:
   - component: {fileID: 114979130058074386}
   - component: {fileID: 198952393477006682}
   - component: {fileID: 199847441521627460}
+  - component: {fileID: 114882820772008922}
   m_Layer: 0
   m_Name: Drink
   m_TagString: Trash
@@ -64,7 +65,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 543279210141cb548afff0dc9a5290d6, type: 2}
+  - {fileID: 2100000, guid: 7cba7ca7efda0e148824a5e1ac2dc45e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -206,6 +207,21 @@ MonoBehaviour:
   useOverrideButton: 7
   allowedUseControllers: 0
   usingState: 0
+--- !u!114 &114882820772008922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1238566750136196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0a43f0f5cfce248a93476674d6389f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  unhighlightOnDisable: 1
+  emissionDarken: 50
+  customMaterial: {fileID: 0}
 --- !u!114 &114923147996430858
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -285,7 +301,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1260166362
+  randomSeed: -2027875204
   InitialModule:
     serializedVersion: 3
     enabled: 1
