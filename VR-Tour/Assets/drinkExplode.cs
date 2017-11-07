@@ -24,11 +24,16 @@ public class drinkExplode : MonoBehaviour {
     {
         counter++;
         gameObject.GetComponent<ParticleSystem>().Play();
+        StartCoroutine(wasteTime(1));
         gameObject.GetComponent<ParticleSystem>().Stop();
         if (counter > 5)
         {
             gameObject.GetComponent<ParticleSystem>().Play();
             Destroy(gameObject);
         }
+    }
+    IEnumerator wasteTime(int time)
+    {
+        yield return new WaitForSeconds(time);
     }
 }
