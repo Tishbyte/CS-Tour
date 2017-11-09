@@ -24,11 +24,6 @@ public class drinkExplode : MonoBehaviour {
     {
         counter++;
         StartCoroutine(spray(counter));
-        if (counter > 5)
-        {
-            gameObject.GetComponent<ParticleSystem>().Play();
-            Destroy(gameObject);
-        }
     }
     IEnumerator spray(int counter)
     {

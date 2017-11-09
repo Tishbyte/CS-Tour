@@ -18,6 +18,8 @@ ModelImporter:
     100020: Door_003
     100022: Door_004
     100024: Door_005
+    100026: Grass
+    100028: Grass2
     400000: //RootNode
     400002: Plane
     400004: Plane_001
@@ -31,6 +33,8 @@ ModelImporter:
     400020: Door_003
     400022: Door_004
     400024: Door_005
+    400026: Grass
+    400028: Grass2
     2300000: Plane
     2300002: Plane_001
     2300004: Building
@@ -43,6 +47,8 @@ ModelImporter:
     2300018: Door_003
     2300020: Door_004
     2300022: Door_005
+    2300024: Grass
+    2300026: Grass2
     3300000: Plane
     3300002: Plane_001
     3300004: Building
@@ -55,6 +61,8 @@ ModelImporter:
     3300018: Door_003
     3300020: Door_004
     3300022: Door_005
+    3300024: Grass
+    3300026: Grass2
     4300000: Plane_001
     4300002: Plane
     4300004: Floor
@@ -67,6 +75,8 @@ ModelImporter:
     4300018: Door_005
     4300020: Door_004
     4300022: Door_003
+    4300024: Grass
+    4300026: Grass2
     7400000: Default Take
     9500000: //RootNode
   materials:

@@ -626,7 +626,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 20323376
+  randomSeed: -2043799087
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -5046,7 +5046,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6271,7 +6271,7 @@ GameObject:
   - component: {fileID: 509781227}
   m_Layer: 0
   m_Name: '[CameraRig]'
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6650,8 +6650,8 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 509781204}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
+  m_IsTrigger: 1
+  m_Enabled: 1
   m_Radius: 0.2
   m_Height: 0.75
   m_Direction: 1
@@ -7037,7 +7037,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: 3
     m_CustomResolution: -1
     m_Strength: 1
@@ -7051,7 +7051,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9667,6 +9667,7 @@ GameObject:
   - component: {fileID: 1559690597}
   - component: {fileID: 1559690599}
   - component: {fileID: 1559690598}
+  - component: {fileID: 1559690601}
   - component: {fileID: 1559690600}
   m_Layer: 0
   m_Name: Grass
@@ -9681,8 +9682,8 @@ Transform:
   m_PrefabParentObject: {fileID: 400004, guid: 63e6cca1c7c4d014fa13cdc7b81d7be3, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559690596}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0.61583817, z: -0.00000002691914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.24, z: -0.00000002691914}
   m_LocalScale: {x: 16.237696, y: 16.237696, z: 16.237696}
   m_Children: []
   m_Father: {fileID: 1160082046}
@@ -9728,21 +9729,30 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559690596}
-  m_Mesh: {fileID: 4300000, guid: 63e6cca1c7c4d014fa13cdc7b81d7be3, type: 3}
---- !u!64 &1559690600
-MeshCollider:
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1559690600
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559690596}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 63e6cca1c7c4d014fa13cdc7b81d7be3, type: 3}
+  m_Size: {x: 10, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1559690601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559690596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 131592a61403a814a975a4bdee24ed18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1573373640 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100002, guid: 5beaeec48014a1c4b9d261152051c0f2, type: 3}
@@ -11251,8 +11261,8 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
   interactWithoutGrab: 1
   connectedTo: {fileID: 0}
-  direction: 0
-  activationDistance: 0.007836819
+  direction: 6
+  activationDistance: 0.001
   buttonStrength: 10
   events:
     OnPush:
@@ -11455,7 +11465,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 599910a3d09686543a0ec90e8b59b8d0, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2140254793}
-  m_LocalRotation: {x: 0.70710695, y: -0, z: -0, w: 0.70710665}
+  m_LocalRotation: {x: 0.707107, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -1.283, y: -0.27197528, z: -0.195}
   m_LocalScale: {x: 0.29346588, y: 0.29346588, z: 0.29346588}
   m_Children: []
