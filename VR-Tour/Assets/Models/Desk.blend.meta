@@ -9,19 +9,44 @@ ModelImporter:
     100002: Cube_001
     100004: Cube_002
     100006: //RootNode
+    100008: desk
+    100010: drawer1
+    100012: drawer2
+    100014: handle1
+    100016: handle2
     400000: Cube
     400002: Cube_001
     400004: Cube_002
     400006: //RootNode
+    400008: desk
+    400010: drawer1
+    400012: drawer2
+    400014: handle1
+    400016: handle2
     2300000: Cube
     2300002: Cube_001
     2300004: Cube_002
+    2300006: desk
+    2300008: drawer1
+    2300010: drawer2
+    2300012: handle1
+    2300014: handle2
     3300000: Cube
     3300002: Cube_001
     3300004: Cube_002
+    3300006: desk
+    3300008: drawer1
+    3300010: drawer2
+    3300012: handle1
+    3300014: handle2
     4300000: Cube_002
     4300002: Cube_001
     4300004: Cube
+    4300006: handle2
+    4300008: handle1
+    4300010: drawer2
+    4300012: drawer1
+    4300014: desk
     7400000: Default Take
     9500000: //RootNode
   materials:
