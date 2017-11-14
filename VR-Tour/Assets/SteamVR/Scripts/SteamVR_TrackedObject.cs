@@ -37,7 +37,7 @@ public class SteamVR_TrackedObject : MonoBehaviour
 
     public bool isValid { get; private set; }
 
-	private void OnNewPoses(TrackedDevicePose_t[] poses)
+    private void OnNewPoses(TrackedDevicePose_t[] poses)
 	{
 		if (index == EIndex.None)
 			return;
@@ -68,9 +68,9 @@ public class SteamVR_TrackedObject : MonoBehaviour
 			transform.localPosition = pose.pos;
 			transform.localRotation = pose.rot;
 		}
-	}
+    }
 
-	SteamVR_Events.Action newPosesAction;
+    SteamVR_Events.Action newPosesAction;
 
 	SteamVR_TrackedObject()
 	{
