@@ -2249,6 +2249,7 @@ MonoBehaviour:
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
+  col: {r: 1, g: 1, b: 1, a: 0}
   chalkboard: {fileID: 1345365988}
 --- !u!4 &2027584975
 Transform:

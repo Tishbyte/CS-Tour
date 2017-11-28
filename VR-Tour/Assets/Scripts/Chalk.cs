@@ -5,7 +5,7 @@ using VRTK;
 
 public class Chalk : VRTK_InteractableObject
 {
-
+    public Color col;
     private VRTK_ControllerActions controllerActions;
     public ChalkBoard chalkboard;
     private RaycastHit touch;
@@ -42,7 +42,7 @@ public class Chalk : VRTK_InteractableObject
             controllerActions.TriggerHapticPulse(0.05f);
 
             // Set whiteboard parameters
-            chalkboard.SetColor(Color.white);
+            chalkboard.SetColor(col);
             chalkboard.SetTouchPosition(touch.textureCoord.x, touch.textureCoord.y);
             chalkboard.ToggleTouch(true);
 
