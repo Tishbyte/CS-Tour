@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 885, y: 492}
-  m_MaxSize: {x: 16010, y: 14042}
+  m_MinSize: {x: 887, y: 492}
+  m_MaxSize: {x: 16012, y: 14042}
   vertical: 0
-  controlID: 95
+  controlID: 142
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 610, y: 492}
   m_MaxSize: {x: 12010, y: 14042}
   vertical: 1
-  controlID: 96
+  controlID: 143
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_MinSize: {x: 610, y: 221}
   m_MaxSize: {x: 12010, y: 4021}
   vertical: 0
-  controlID: 97
+  controlID: 144
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -177,8 +177,8 @@ MonoBehaviour:
     y: 0
     width: 325
     height: 454
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -228,8 +228,8 @@ MonoBehaviour:
     y: 0
     width: 645
     height: 454
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -279,8 +279,8 @@ MonoBehaviour:
     y: 0
     width: 289
     height: 731
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -389,10 +389,10 @@ MonoBehaviour:
     width: 323
     height: 433
   m_TreeViewState:
-    scrollPos: {x: 0, y: 32}
-    m_SelectedIDs: 44390000
-    m_LastClickedID: 14660
-    m_ExpandedIDs: 64f8ffffd8fbffff0000000062350000e636000048390000203a0000663e0000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 1c360000883b0000ca3e0000
+    m_LastClickedID: 16074
+    m_ExpandedIDs: d8fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -481,9 +481,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.24419814, y: 0.5212582, z: -1.9025965}
+    m_Target: {x: 12.41102, y: 27.237284, z: 0.039218582}
     speed: 2
-    m_Value: {x: 0.24419814, y: 0.5212582, z: -1.9025965}
+    m_Value: {x: 12.41102, y: 27.237284, z: 0.039218582}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -506,9 +506,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.18045151, y: -0.78697205, z: 0.27096385, w: -0.52410984}
+    m_Target: {x: -0.005250163, y: 0.72311, z: -0.005490656, w: -0.6906913}
     speed: 2
-    m_Value: {x: -0.1804515, y: -0.7869719, z: 0.27096382, w: -0.5241098}
+    m_Value: {x: -0.0052501624, y: 0.72310996, z: -0.0054906555, w: -0.69069123}
   m_Size:
     m_Target: 1.3501649
     speed: 2
@@ -570,9 +570,9 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 39}
-    m_SelectedIDs: 98300000
-    m_LastClickedID: 12440
-    m_ExpandedIDs: 00000000ce280000ce2a0000fa2b0000842d00009c2e0000202f000002320000ca3200009a4900009c4900009e490000a0490000a2490000a449000000ca9a3bffffff7f
+    m_SelectedIDs: 9a300000
+    m_LastClickedID: 12442
+    m_ExpandedIDs: 00000000ce280000d02a0000fc2b0000862d00009e2e0000222f000004320000cc320000a8490000aa490000ac490000ae490000b0490000b249000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -600,7 +600,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ce280000ce2a0000fa2b0000842d00009c2e0000202f000002320000ca3200009a4900009c4900009e490000a0490000a2490000a4490000
+    m_ExpandedIDs: 00000000ce280000d02a0000fc2b0000862d00009e2e0000222f000004320000cc320000a8490000aa490000ac490000ae490000b0490000b2490000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
