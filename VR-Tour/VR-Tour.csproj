@@ -126,6 +126,8 @@
     <Compile Include="Assets\Scripts\Trash.cs" />
     <Compile Include="Assets\Scripts\dispenseDrink.cs" />
     <Compile Include="Assets\Scripts\drinkExplode.cs" />
+    <Compile Include="Assets\Scripts\foodEdible.cs" />
+    <Compile Include="Assets\Scripts\rotatePropellor.cs" />
     <Compile Include="Assets\Scripts\teleportToSpawn.cs" />
     <Compile Include="Assets\Scripts\waterSwitch.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
@@ -484,7 +486,7 @@
     <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_SDKTransformModify.cs" />
     <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_SharedMethods.cs" />
     <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_Simulator.cs" />
-    <Compile Include="Assets\rotatePropellor.cs" />
+    <Compile Include="Assets\food.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
