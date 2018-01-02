@@ -19,14 +19,14 @@ Platform assembly: C:\Users\BBCC\Desktop\Git\CS-Local\VR-Tour\Builds\Finished_Da
 Loading C:\Users\BBCC\Desktop\Git\CS-Local\VR-Tour\Builds\Finished_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\Users\BBCC\Desktop\Git\CS-Local\VR-Tour\Builds\Finished_Data\Managed\UnityEngine.VR.dll (this message is harmless)
 Loading C:\Users\BBCC\Desktop\Git\CS-Local\VR-Tour\Builds\Finished_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
-- Completed reload, in  0.021 seconds
+- Completed reload, in  0.023 seconds
 Platform assembly: C:\Users\BBCC\Desktop\Git\CS-Local\VR-Tour\Builds\Finished_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\BBCC\Desktop\Git\CS-Local\VR-Tour\Builds\Finished_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 3840x2160 60Hz; virtual: 3840x2160 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 4.880917 ms
+UnloadTime: 1.134719 ms
 OpenVR initialized!
  
 (Filename:  Line: 424)
@@ -157,10 +157,10 @@ Connected to lighthouse:LHR-361B0BD7
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 4638 -> priority: 1 
-  Thread -> id: 4604 -> priority: 1 
-  Thread -> id: 3d50 -> priority: 1 
-  Thread -> id: 2eac -> priority: 1 
+  Thread -> id: 3f20 -> priority: 1 
+  Thread -> id: 854 -> priority: 1 
+  Thread -> id: 3190 -> priority: 1 
+  Thread -> id: 3ed8 -> priority: 1 
 OpenVR Shutdown
  
 (Filename:  Line: 889)
