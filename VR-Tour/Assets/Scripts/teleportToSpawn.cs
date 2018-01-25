@@ -7,7 +7,7 @@ public class teleportToSpawn : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            other.gameObject.transform.localPosition = new Vector3(-3.15f, 0.679f, -2.485f);
+            other.gameObject.transform.localPosition = new Vector3(0, 0, 0);//(-3.15f, 0.679f, -2.485f);
         }
     }
 }
